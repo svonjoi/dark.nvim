@@ -10,6 +10,9 @@ local pink = "#FF7979"
 local light_pink = "#F6ACA7"
 local gray = "#8B8B8B"
 
+local blue = "#79abff"
+local purple = "#7b79ff"
+
 local bg = "#000000"
 local bg_float = "#101010"
 local bg_float_bright = "#121212"
@@ -66,7 +69,7 @@ local colors = {
   },
 
   markup = {
-    link = pink,
+    link = purple,
     h1 = red,
     h2 = orange,
     h3 = magenta,

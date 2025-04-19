@@ -59,7 +59,7 @@ M.generate = function()
     PmenuSel = { fg = c.fg, bg = u.shade(c.bg_float, 15) }, -- Popup menu: selected item.
     PmenuSbar = { bg = c.fg_gutter }, -- Popup menu: scrollbar.
     PmenuThumb = { bg = c.fg_gutter }, -- Popup menu: Thumb of the scrollbar.
-    QuickFixLine = { bg = c.markup.link, bold = styles.bold }, -- Current |quickfix| item in the quickfix window. Combined with |hl-CursorLine| when the cursor is there.
+    QuickFixLine = { bold = styles.bold }, -- Current |quickfix| item in the quickfix window. Combined with |hl-CursorLine| when the cursor is there.
     qfLineNr = { fg = c.red },
     qfFileName = { fg = c.markup.link },
     SpellBad = { sp = c.error, undercurl = true }, -- Word that is not recognized by the spellchecker. |spell| Combined with the highlighting used otherwise.
